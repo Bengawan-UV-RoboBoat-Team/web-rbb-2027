@@ -1,0 +1,157 @@
+{
+  "hull": {
+    "title": "Hull Design",
+    "image": "/images/research/body-design/hull-360.gif",
+    "subtitle": "Transition to flared flat-bottom catamaran hull",
+    "icon": "uil:ship",
+    "shortDesc": "Flared flat-bottom catamaran for improved initial stability",
+    "before": {
+      "name": "Mandakini Zenith (2025)",
+      "specs": [
+        "Round-bottom catamaran hull",
+        "Lower initial stability in wave disturbances",
+        "More sensitive to lateral motion",
+        "Less effective wave response in storm conditions"
+      ]
+    },
+    "after": {
+      "name": "Mandakini Raiden (2026)",
+      "specs": [
+        "Flared flat-bottom catamaran hull",
+        "Higher initial stability in wave disturbance",
+        "Improved buoyancy distribution",
+        "Better performance in storm conditions"
+      ]
+    }
+  },
+
+	"vision": {
+	"title": "Object Detection",
+  "image": "/images/improvements/vision.webp",
+	"subtitle": "Optimized YOLO pipeline for complex autonomous tasks",
+	"icon": "uil:eye",
+	"shortDesc": "YOLOv4-Tiny tuned for stable real-time perception",
+	"before": {
+		"name": "YOLOv4 (Full Model)",
+		"specs": [
+		"Higher mAP but lower frame rate in complex task scenarios",
+		"Longer training time",
+		"Less stable performance under multi-task and high-load conditions"
+		]
+	},
+	"after": {
+		"name": "YOLOv4-Tiny + TensorRT",
+		"specs": [
+			"Lower initial mAP than YOLOv4 but improved through hyperparameter tuning and dataset pre-processing",
+			"Faster training process compared to full YOLOv4",
+			"Stable real-time frame rate suitable for complex autonomous tasks"
+		]
+	}
+	},
+
+
+  "navigation": {
+    "title": "Navigation System",
+    "image": "/images/research/electric-mechanic/rtk.webp",
+    "subtitle": "RTK-GPS integration for precise positioning",
+    "icon": "uil:location-point",
+    "shortDesc": "RTK-enhanced navigation with reduced waypoint drift",
+    "before": {
+      "name": "Standard GPS Navigation",
+      "specs": [
+        "Standard GPS positioning",
+        "Position drift in long missions",
+        "Susceptible to electromagnetic interference",
+        "Reduced reliability in adverse conditions"
+      ]
+    },
+    "after": {
+      "name": "RTK-GPS Integrated Navigation",
+      "specs": [
+        "RTK-GPS with real-time kinematic correction",
+        "Significantly improved position accuracy",
+        "Reduced waypoint drift",
+        "More stable navigation in interference-prone environments"
+      ]
+    }
+  	},
+
+	"propulsion": {
+	"title": "Propulsion System",
+  "image": "/images/research/electric-mechanic/raiden-propulsion.webp",
+	"subtitle": "Improved thruster and steering integration",
+	"icon": "uil:bolt",
+	"shortDesc": "T200 thruster with internal servo steering",
+	"before": {
+		"name": "Previous Propulsion Layout",
+		"specs": [
+		"Thruster and steering components exposed",
+		"Higher risk of water ingress",
+		"Less protected steering mechanism"
+		]
+	},
+	"after": {
+		"name": "Integrated Propulsion System",
+		"specs": [
+		"Thruster mounted on shaft embedded in hull",
+		"Servo motor positioned inside the hull",
+		"Improved protection against water exposure"
+		]
+	}
+	},
+
+	"frame": {
+	"title": "Modular Frame",
+  "image": "/images/improvements/modular-frame.gif",
+	"subtitle": "From loosely fitted modular joints to interlocking precision structure",
+	"icon": "uil:layer-group",
+	"shortDesc": "Precision slot-in modular frame with clamped joints",
+	"before": {
+		"name": "Early Modular Frame",
+		"specs": [
+		"Modular frame structure with inserted L-shaped steel profiles",
+		"Manual alignment during assembly process",
+		"Joints prone to loosening and structural vibration",
+		"Inconsistent rigidity after repeated assembly",
+		"Difficult and time-consuming structural modification"
+		]
+	},
+	"after": {
+		"name": "Interlocking Modular Frame System",
+		"specs": [
+		"Precision slot-in modular frame architecture",
+		"Improved joint rigidity and vibration resistance",
+		"Consistent structural stiffness after repeated assembly and maintenance",
+		"Custom PETG filament joints for accurate alignment",
+		"Fast assembly, disassembly, and structural reconfiguration"
+		]
+	}
+	},
+
+
+  "manufacturing": {
+    "title": "Advanced Manufacturing",
+    "image": "/images/research/body-design/vacuum.webp",
+    "subtitle": "Vacuum Infusion Process implementation",
+    "icon": "uil:cog",
+    "shortDesc": "Improved hull manufacturing using VIP method",
+    "before": {
+      "name": "Conventional Manufacturing",
+      "specs": [
+        "Manual fiberglass fabrication",
+        "Inconsistent fiber-resin ratio",
+        "Higher hull weight",
+        "Potential internal voids"
+      ]
+    },
+    "after": {
+      "name": "Vacuum Infusion Process (VIP)",
+      "specs": [
+        "Vacuum infusion manufacturing method",
+        "Optimized fiber-to-resin ratio",
+        "Reduced hull weight",
+        "More uniform and precise hull structure"
+      ]
+    }
+  }
+}

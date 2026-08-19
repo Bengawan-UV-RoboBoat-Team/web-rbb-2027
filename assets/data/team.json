@@ -1,0 +1,234 @@
+{
+	"supervisors": [
+		{
+			"name": "Prof. Dr.Eng. Ir. Syamsul Hadi S.T., M.T.",
+			"role": "Club Supervisors",
+			"research_area": "Composite",
+			"email": "syamsulhadi@staff.uns.ac.id",
+			"image": "/images/supervisors/pak-syamsul.webp"
+		},
+		{
+			"name": "Dr.Eng. Aditya Rio Prabowo, S.T., M.T., M.Eng.",
+			"role": "Chief Advisor",
+			"research_area": "Impact Engineering and Marine Structures",
+			"email": "aditya@ft.uns.ac.id",
+			"image": "/images/supervisors/pak-adit.webp"
+		},
+		{
+			"name": "Ir. Muhammad Hamka Ibrahim, S.T., M.Eng., Ph.D., IPM, ASEAN.Eng.",
+			"role": "Electrical Advisor",
+			"research_area": "VLSI, Telecommunication, & Instrumentation",
+			"email": "hamka@staff.uns.ac.id",
+			"image": "/images/supervisors/pak-hamka.webp"
+		},
+		{
+			"name": "Dr.Eng. Iwan Istanto, ST, M.Eng.",
+			"role": "Mechanical Advisor",
+			"research_area": "Control and Automation",
+			"email": "iwan.istanto@staff.uns.ac.id",
+			"image": "/images/supervisors/pak-iwan.webp"
+		},
+		{
+			"name": "Rahman Wijaya, ST, M.Eng.",
+			"role": "Body & Structure Advisor",
+			"research_area": "Additive Manufacturing",
+			"email": "rahmanwi@staff.uns.ac.id",
+			"image": "/images/supervisors/pak-rahman.webp"
+		},
+		{
+			"name": "Dharu Feby Smaradhana ST, M.SC.",
+			"role": "Composite & Material Advisor",
+			"research_area": "Composite & Materials Characterisation",
+			"email": "dharufs@staff.uns.ac.id",
+			"image": "/images/supervisors/pak-dharu.webp"
+		}
+	],
+	"team_leader": [
+		{
+			"name": "Muhammad Taufiq Nur Hidayat",
+			"role": "Team Leader",
+			"major": "Mechanical Engineering",
+			"research_area": "CAD, Manufacturing, Hull Analysis",
+			"email": "mtn.hidayat@gmail.com",
+			"instagram": "https://instagram.com/taufiqhdytt",
+			"linkedin": "https://www.linkedin.com/in/taufiq-nur-hidayat",
+			"image": "/images/technical/taufik.webp"
+		}
+	],
+	"technical_team": [
+		{
+			"name": "Rafi Adhitya Putra Wibawa",
+			"role": "Technical Leader",
+			"major": "Electrical Engineering",
+			"research_area": "Navigation System, Electrical System, Mechatronic",
+			"email": "rafiadhitya@student.uns.ac.id",
+			"instagram": "https://instagram.com/rafiadhitya_12",
+			"linkedin": "https://www.linkedin.com/in/rafiadhitya",
+			"image": "/images/technical/rafi.webp"	
+		},
+				{
+			"name": "Elsya Bekti Nugroho",
+			"role": "Programming",
+			"major": "Electrical Engineering",
+			"research_area": "Sensors, Control System",
+			"email": "xelsyabn@gmail.com",
+			"instagram": "https://instagram.com/bkti1_",
+			"linkedin": "https://www.linkedin.com/in/elsya-bekti-nugroho-aa9116288",
+			"image": "/images/technical/bekti.webp"
+		},
+		{
+			"name": "Firizqi Aditya Mulya",
+			"role": "Programming",
+			"major": "Informatics",
+			"research_area": "Object Detection, Computer Vision",
+			"email": "adityamulyaf@gmail.com",
+			"instagram": "https://instagram.com/adityamulyaf",
+			"linkedin": "https://www.linkedin.com/in/firizqi-aditya-mulya",
+			"image": "/images/technical/ditya.webp"
+		},
+		{
+			"name": "Muhammad Faridz Akbar",
+			"role": "Electrical & Mechanical",
+			"major": "Electrical Engineering",
+			"research_area": "Electrical System, IoT",
+			"email": "faridzxridz@gmail.com",
+			"instagram": "https://instagram.com/faridzzz_a",
+			"linkedin": "https://www.linkedin.com/in/muhammadfaridza",
+			"image": "/images/technical/faridz.webp"
+		},
+		{
+			"name": "Bagas Widi Saputra ",
+			"role": "Body & Design",
+			"major": "Mechanical Engineering",
+			"research_area": "3D Modelling, Manufacturing, Hull Analysis",
+			"email": "srenti.bagas@gmail.com",
+			"instagram": "https://instagram.com/bgs_wdptr",
+			"linkedin": "https://www.linkedin.com/in/bagas-widi-saputra-5a1653323",
+			"image": "/images/technical/bagas.webp"
+		}
+	],
+	"non_technical_team": [
+		{
+			"name": "Fauziah Umu Halima",
+			"role": "External Manager",
+			"major": "Law",
+			"specific_role": "Assist external relations with domestic and prepare accommodation.",
+			"email": "fauziahumuhalima123@gmail.com",
+			"instagram": "https://instagram.com/fauzemiefa",
+			"linkedin": "https://www.linkedin.com/in/fauziah-umu-halima",
+			"image": "/images/non-tech/zia.webp"
+		},
+		{
+			"name": "Alissya Pratiwi Haryadi",
+			"role": "Internal Manager",
+			"major": "Husbandry",
+			"specific_role": "Manage team finances and help the team internally.",
+			"email": "alissyaharyadi@gmail.com",
+			"instagram": "https://instagram.com/alsya_prtwi",
+			"linkedin": "https://www.linkedin.com/in/alissya-pratiwi-haryadi-a1568b270",
+			"image": "/images/non-tech/alisya.webp"
+		},
+		{
+			"name": "Annisa Friska Lusiana",
+			"role": "Administrator",
+			"major": "Food Technology Science",
+			"specific_role": "Carry out management of correspondence and general team affairs.",
+			"email": "annisa.friska123@gmail.com",
+			"instagram": "https://instagram.com/friiska.lusiana_",
+			"linkedin": "https://www.linkedin.com/in/annisa-friska-lusiana-572a30346",
+			"image": "/images/non-tech/friska.webp"
+		},
+		{
+			"name": "Berlian Rizky Septianingrum",
+			"role": "Administrator",
+			"major": "Manufacturing Engineering Technology",
+			"specific_role": "Proposing permission to university related to internasional competition.",
+			"email": "rizkyannn23@gmail.com",
+			"instagram": "https://instagram.com/brlianrr",
+			"linkedin": "https://www.linkedin.com/in/berlian-rizky-163581333",
+			"image": "/images/non-tech/berli.webp"
+		},
+		{
+			"name": "Rahma Meiza Noorathaya",
+			"role": "Sponsorship",
+			"major": "Law",
+			"specific_role": "Maintain and create relation with external parties and sponsors.",
+			"email": "rahmameizanoora@gmail.com",
+			"instagram": "https://instagram.com/meijoong",
+			"linkedin": "https://www.linkedin.com/in/rahma-meiza-noorathaya-842189338",
+			"image": "/images/non-tech/meiza.webp"
+		},
+		{
+			"name": "Taqi Refa Nasrulah",
+			"role": "Sponsorship",
+			"major": "Mechanical Engineering",
+			"specific_role": "Prepare sponsor needs and establish cooperation with sponsors.",
+			"email": "taqi.refa.nasrulah@gmail.com",
+			"instagram": "https://instagram.com/taq.rep",
+			"linkedin": "https://www.linkedin.com/in/taqi-refa-nasrulah",
+			"image": "/images/non-tech/taqi.webp"
+		},
+		{
+			"name": "Tiara Putri Maharani",
+			"role": "Sponsorship",
+			"major": "Indonesian Literature",
+			"specific_role": "Identify and approach potential sponsors and partners.",
+			"email": "tiaraputrim13@gmail.com",
+			"instagram": "https://instagram.com/tiaraaa.pm",
+			"linkedin": "https://www.linkedin.com/in/tiaramhrn",
+			"image": "/images/non-tech/tiara.webp"
+		},
+		{
+			"name": "Salma Salsabilla",
+			"role": "Visual Branding",
+			"major": "Industrial Engineering",
+			"specific_role": "Produce team introduction video.",
+			"email": "salmaaesess@gmail.com",
+			"instagram": "https://instagram.com/salmaaassl",
+			"linkedin": "https://www.linkedin.com/in/salma-salsabilla",
+			"image": "/images/non-tech/salma.webp"
+		},
+		{
+			"name": "Riva Tahlilia Yazna",
+			"role": "Visual Branding",
+			"major": "Chemistry",
+			"specific_role": "Design visually engaging presentation materials.",
+			"email": "rivayazna@gmail.com",
+			"instagram": "https://instagram.com/rivayaaz",
+			"linkedin": "https://www.linkedin.com/in/riva-tahlilia-yazna-b183b2323",
+			"image": "/images/non-tech/riva.webp"
+		}
+	],
+	"past_team": [
+		{
+			"name": "Alumni 2025",
+			"year": "Roboboat 2025",
+			"image": "/images/past-team/buv-rbb-2025.webp",
+			"website": "https://2025.buvroboboatuns.com"
+		},
+		{
+			"name": "Alumni 2024",
+			"year": "Roboboat 2024",
+			"image": "/images/past-team/buv-rbb-2024.webp",
+			"website": "https://2024.buvroboboatuns.com"
+		},
+		{
+			"name": "Alumni 2023",
+			"year": "Roboboat 2023",
+			"image": "/images/past-team/buv-rbb-2023.webp",
+			"website": "https://2023.buvroboboatuns.com"
+		},
+		{
+			"name": "Alumni 2022",
+			"year": "Roboboat 2022",
+			"image": "/images/past-team/buv-rbb-2022.webp",
+			"website": "https://2022.buvroboboatuns.com"
+		},
+		{
+			"name": "Alumni 2021",
+			"year": "Roboboat 2021",
+			"image": "/images/past-team/buv-rbb-2021.webp",
+			"website": "https://2021.buvroboboatuns.com"
+		}
+	]
+}

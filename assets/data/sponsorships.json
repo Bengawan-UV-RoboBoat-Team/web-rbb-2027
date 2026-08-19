@@ -1,0 +1,167 @@
+{
+	"packages": [
+		{
+			"name": "Main Sponsor",
+			"price": "> 50 Million IDR",
+			"features": [
+				{ "label": "Logo on Vehicle", "value": "Size XL" },
+				{ "label": "Logo on Team T-Shirt", "value": "Size XL" },
+				{ "label": "Logo on Polo Shirt", "value": "Size XL" },
+				{ "label": "Logo on X-Banner", "value": "Size XL" },
+				{ "label": "Logo on Launching Backdrop", "value": "Size XL" },
+				{
+					"label": "Logo in Aftermovie",
+					"value": "5 seconds",
+					"subtext": "\"Our Biggest Thanks To\""
+				},
+				{ "label": "Social Media Exposure", "value": true },
+				{ "label": "Ad-Libs Mention", "value": true },
+				{ "label": "Merchandise", "value": true },
+				{ "label": "Content Collaboration", "value": true },
+				{ "label": "Launching Speech Opportunity", "value": true },
+				{ "label": "Company Branding", "value": true }
+			]
+		},
+		{
+			"name": "Platinum",
+			"price": "21 - 50 Million IDR",
+			"features": [
+				{ "label": "Logo on Vehicle", "value": "Size L" },
+				{ "label": "Logo on Team T-Shirt", "value": "Size L" },
+				{ "label": "Logo on Polo Shirt", "value": "Size L" },
+				{ "label": "Logo on X-Banner", "value": "Size L" },
+				{ "label": "Logo on Launching Backdrop", "value": "Size L" },
+				{
+					"label": "Logo in Aftermovie",
+					"value": "5 seconds",
+					"subtext": "\"Our Biggest Thanks To\""
+				},
+				{ "label": "Social Media Exposure", "value": true },
+				{ "label": "Ad-Libs Mention", "value": true },
+				{ "label": "Merchandise", "value": true },
+				{ "label": "Content Collaboration", "value": true },
+				{ "label": "Launching Speech Opportunity", "value": true },
+				{ "label": "Company Branding", "value": false }
+			]
+		},
+		{
+			"name": "Gold",
+			"price": "11 - 20 Million IDR",
+			"features": [
+				{ "label": "Logo on Vehicle", "value": "Size M" },
+				{ "label": "Logo on Team T-Shirt", "value": "Size M" },
+				{ "label": "Logo on Polo Shirt", "value": "Size M" },
+				{ "label": "Logo on X-Banner", "value": "Size M" },
+				{ "label": "Logo on Launching Backdrop", "value": "Size M" },
+				{
+					"label": "Logo in Aftermovie",
+					"value": "5 seconds",
+					"subtext": "\"Our Sponsor\""
+				},
+				{ "label": "Social Media Exposure", "value": true },
+				{ "label": "Ad-Libs Mention", "value": true },
+				{ "label": "Merchandise", "value": true },
+				{ "label": "Content Collaboration", "value": true },
+				{ "label": "Launching Speech Opportunity", "value": false },
+				{ "label": "Company Branding", "value": false }
+			]
+		},
+		{
+			"name": "Silver",
+			"price": "6 - 10 Million IDR",
+			"features": [
+				{ "label": "Logo on Vehicle", "value": "Size S" },
+				{ "label": "Logo on Team T-Shirt", "value": "Size S" },
+				{ "label": "Logo on Polo Shirt", "value": "Size S" },
+				{ "label": "Logo on X-Banner", "value": "Size S" },
+				{ "label": "Logo on Launching Backdrop", "value": "Size S" },
+				{
+					"label": "Logo in Aftermovie",
+					"value": "5 seconds",
+					"subtext": "\"Our Sponsor\""
+				},
+				{ "label": "Social Media Exposure", "value": true },
+				{ "label": "Ad-Libs Mention", "value": true },
+				{ "label": "Merchandise", "value": true },
+				{ "label": "Content Collaboration", "value": true },
+				{ "label": "Launching Speech Opportunity", "value": false },
+				{ "label": "Company Branding", "value": false }
+			]
+		},
+		{
+			"name": "Bronze",
+			"price": "2 - 5 Million IDR",
+			"features": [
+				{ "label": "Logo on Vehicle", "value": "Size XS" },
+				{ "label": "Logo on Team T-Shirt", "value": "Size XS" },
+				{ "label": "Logo on Polo Shirt", "value": "Size XS" },
+				{ "label": "Logo on X-Banner", "value": false },
+				{ "label": "Logo on Launching Backdrop", "value": false },
+				{
+					"label": "Logo in Aftermovie",
+					"value": "5 seconds",
+					"subtext": "\"Our Sponsor\""
+				},
+				{ "label": "Social Media Exposure", "value": true },
+				{ "label": "Ad-Libs Mention", "value": true },
+				{ "label": "Merchandise", "value": true },
+				{ "label": "Content Collaboration", "value": false },
+				{ "label": "Launching Speech Opportunity", "value": false },
+				{ "label": "Company Branding", "value": false }
+			]
+		}
+	],
+	"current_sponsors": [
+
+		{
+			"name": "Bank Jateng",
+			"logo": "/images/sponsors/past-sponsors/bank-jateng.webp",
+			"link": "https://www.bankjateng.co.id/",
+			"tier": "Gold"
+		},
+		{
+			"name": "Beetrona",
+			"logo": "/images/sponsors/current-sponsors/beetrona-logo.webp",
+			"link": "https://tokobeetrona.com/",
+			"tier": "Silver"
+		},
+		{
+			"name": "Buaya Aerotech",
+			"logo": "/images/sponsors/current-sponsors/buaya-aerotech-logo.webp",
+			"link": "https://buaya-aerotech.com/",
+			"tier": "Silver"
+		},
+		{
+			"name": "Handycraft",
+			"logo": "/images/sponsors/current-sponsors/handycraft-logo.webp",
+			"link": "https://www.instagram.com/handycraft3d_/",
+			"tier": "Bronze"
+		},
+		{
+			"name": "Badak LNG",
+			"logo": "/images/sponsors/current-sponsors/badak-lng-logo.webp",
+			"link": "https://badaklng.com/id/",
+			"tier": "Bronze"
+		},
+		{
+			"name": "Visicom",
+			"logo": "/images/sponsors/current-sponsors/visicom-logo.webp",
+			"link": "https://visicomled.com/",
+			"tier": "Bronze"
+		}
+	],
+	"past_sponsors": [
+		{
+			"name": "Spesial Sambal",
+			"logo": "/images/sponsors/past-sponsors/spesial-sambal.webp"
+		},
+		{
+			"name": "Kahf",
+			"logo": "/images/sponsors/past-sponsors/kahf.webp"
+		},
+		{
+			"name": "iNews",
+			"logo": "/images/sponsors/past-sponsors/inews.webp"
+		}
+	]
+}
