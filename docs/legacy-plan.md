@@ -23,12 +23,12 @@ Dokumen ini merinci rencana teknis dan desain untuk menggantikan integrasi websi
 [ Navbar: Profile > Past Teams ]
                  │
                  ▼
-[ Profile Page: Interactive Timeline (2021 - 2026) ]
+[ Profile Page: Timeline Kartu (2026 → 2021) ]
   ├── Klik Card Tahun (Misal: 2024)
   │
   ▼
 [ Halaman Dinamis: /legacy/[year] ]
-  ├── Quick Year Switcher: [2021] [2022] [2023] [2024] [2025] [2026]
+  ├── Quick Year Switcher: [2026] [2025] [2024] [2023] [2022] [2021]
   ├── 🎯 Mission & Theme (Tantangan & Skenario Kompetisi)
   ├── 🚤 1. The Vessel (Nama & Foto Kapal, Inovasi Penjawab Misi)
   ├── 👥 2. The Crew (Foto Tim Angkatan & Deskripsi)
@@ -38,9 +38,21 @@ Dokumen ini merinci rencana teknis dan desain untuk menggantikan integrasi websi
 
 ### Akses Masuk (Entry Points)
 1. **Dropdown Profile**: Menu *Profile > Past Teams* mengarahkan ke anchor `#past-teams` di `profile.vue`.
-2. **Halaman Profile (`/profile`)**: Section *Past Teams* diubah menjadi **Interactive Yearly Timeline / Tab Selector**.
+2. **Halaman Profile (`/profile`)**: Section *Past Teams* diubah menjadi **timeline vertikal berbasis kartu**, dengan tahun terbaru di atas (2026 → 2021).
 3. **Halaman Our Boat (`/boat`)**: Bagian *Our Fleet History* dapat diberi tautan langsung ke `/legacy/[year]`.
 4. **Footer**: Link ringkas *"Team Legacy & History"* pada footer navigasi.
+
+### Desain Past Teams: Timeline Berbasis Kartu
+
+Timeline memperlihatkan perjalanan tim dari tahun ke tahun, sementara kartu memberi identitas visual untuk setiap angkatan melalui foto kapal atau tim.
+
+* **Desktop**: Garis timeline vertikal di tengah, dengan kartu bergantian di sisi kiri dan kanan serta penanda tahun pada garis.
+* **Mobile**: Kartu disusun dalam satu kolom, dengan garis timeline dan penanda tahun di sisi kiri.
+* **Urutan**: Tahun terbaru ditampilkan paling atas, dari 2026 hingga 2021.
+* **Isi setiap kartu**: Tahun, satu foto kapal atau tim, nama kapal, satu pencapaian utama, dan tombol *"Explore [Year] Journey →"* menuju `/legacy/[year]`.
+* **Sumber konten kartu**: Menggunakan data tahun yang sama di `legacy.json`, yaitu `year`, `boat.name`, `boat.image` atau `team.image`, serta `achievements.highlight`.
+* **Detail lengkap**: Cerita tim, inovasi kapal, daftar penghargaan, dan dokumen teknis ditampilkan di halaman detail tahunan agar kartu tetap ringkas.
+* **Navigasi halaman detail**: Menggunakan tombol pilihan tahun (*Year Quick Switcher*) yang sederhana, berurutan dari terbaru ke terlama, dengan penanda tahun aktif. Timeline menjadi elemen utama pada section *Past Teams* di Profile.
 
 ---
 
@@ -111,14 +123,18 @@ Untuk menjaga efisiensi pemeliharaan, seluruh data rekam jejak tahunan disatukan
 - [ ] **Fase 2: Pembuatan Halaman Dinamis**
   - Membuat file `app/pages/legacy/[year].vue`.
   - Mengimplementasikan layout 4 seksi (Armada, Tim, Prestasi, Dokumen).
-  - Menambahkan *Year Quick Switcher* (navigasi antar tahun langsung di halaman).
+  - Menambahkan *Year Quick Switcher* berupa tombol tahun dari terbaru ke terlama, dengan penanda tahun aktif.
   - Menambahkan penanganan jika tahun yang dimasukkan di URL tidak valid (redirect/fallback).
 - [ ] **Fase 3: Pembaharuan Komponen Timeline di Profile**
   - Memperbarui section `#past-teams` di `app/pages/profile.vue` dengan kartu timeline interaktif.
+  - Mengurutkan kartu dari 2026 hingga 2021 menggunakan data dari `legacy.json`.
+  - Membuat layout desktop dengan kartu bergantian kiri–kanan dan layout mobile satu kolom dengan garis timeline di kiri.
+  - Menampilkan tahun, foto kapal atau tim, nama kapal, dan satu pencapaian utama pada setiap kartu.
   - Mengganti tombol tautan eksternal *"Visit Website"* dengan tombol internal *"Explore [Year] Journey →"*.
 - [ ] **Fase 4: Integrasi Halaman Fleet History (`/boat`)**
   - Menambahkan tautan dari kartu kapal di `app/pages/boat.vue` menuju ke halaman `/legacy/[year]`.
 - [ ] **Fase 5: Testing & Validasi**
-  - Uji responsivitas pada tampilan desktop dan mobile.
+  - Uji responsivitas timeline: kartu bergantian kiri–kanan pada desktop dan satu kolom pada mobile, tanpa luapan horizontal.
+  - Memastikan urutan tahun terbaru di atas, tombol kartu menuju tahun yang sesuai, dan penanda tahun aktif pada *Year Quick Switcher* benar.
   - Memastikan *build* statis (`npm run generate`) berjalan tanpa error.
 
