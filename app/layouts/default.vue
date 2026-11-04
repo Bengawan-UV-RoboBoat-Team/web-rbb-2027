@@ -40,7 +40,7 @@
 						</NuxtLink>
 
 						<div
-							class="absolute top-full left-0 w-48 bg-white shadow-xl rounded-xl border border-gray-100 overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 translate-y-2"
+							class="absolute top-full left-0 w-48 bg-white shadow-xl rounded-xl border border-gray-100 overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-300 transform group-hover:translate-y-0 group-focus-within:translate-y-0 translate-y-2"
 						>
 							<NuxtLink
 								to="/profile"
@@ -374,6 +374,13 @@
 									to="/profile"
 									class="hover:text-secondary transition"
 									>Our Team</NuxtLink
+								>
+							</li>
+							<li>
+								<NuxtLink
+									to="/profile#past-teams"
+									class="hover:text-secondary transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-secondary"
+									>Team Legacy &amp; History</NuxtLink
 								>
 							</li>
 							<li>

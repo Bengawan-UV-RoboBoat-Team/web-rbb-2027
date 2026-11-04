@@ -1,0 +1,1220 @@
+[
+  {
+    "year": "2026",
+    "competition": "RoboBoat 2026",
+    "location": "Sarasota, Florida",
+    "theme": {
+      "title": "Storm Response",
+      "summary": "Autonomous surface vehicles operating in post-disaster maritime scenarios.",
+      "source_url": "https://roboboat.org/roboboat-2026/"
+    },
+    "boat": {
+      "name": "Mandakini Raiden",
+      "image": "/images/mandakini/about-raiden1.webp",
+      "summary": "Optimized hull design, advanced manufacturing processes, enhanced perception and navigation systems, and high-precision RTK-GPS integration.",
+      "image_width": 3840,
+      "image_height": 2160
+    },
+    "team": {
+      "name": "RoboBoat 2026 Team",
+      "image": null,
+      "description": null,
+      "roster": {
+        "team_leader": [
+          {
+            "name": "Muhammad Taufiq Nur Hidayat",
+            "role": "Team Leader",
+            "major": "Mechanical Engineering",
+            "image": "/images/technical/taufik.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          }
+        ],
+        "technical_team": [
+          {
+            "name": "Rafi Adhitya Putra Wibawa",
+            "role": "Technical Leader",
+            "major": "Electrical Engineering",
+            "image": "/images/technical/rafi.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Elsya Bekti Nugroho",
+            "role": "Programming",
+            "major": "Electrical Engineering",
+            "image": "/images/technical/bekti.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Firizqi Aditya Mulya",
+            "role": "Programming",
+            "major": "Informatics",
+            "image": "/images/technical/ditya.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Muhammad Faridz Akbar",
+            "role": "Electrical & Mechanical",
+            "major": "Electrical Engineering",
+            "image": "/images/technical/faridz.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Bagas Widi Saputra",
+            "role": "Body & Design",
+            "major": "Mechanical Engineering",
+            "image": "/images/technical/bagas.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          }
+        ],
+        "non_technical_team": [
+          {
+            "name": "Fauziah Umu Halima",
+            "role": "External Manager",
+            "major": "Law",
+            "image": "/images/non-tech/zia.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Alissya Pratiwi Haryadi",
+            "role": "Internal Manager",
+            "major": "Husbandry",
+            "image": "/images/non-tech/alisya.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Annisa Friska Lusiana",
+            "role": "Administrator",
+            "major": "Food Technology Science",
+            "image": "/images/non-tech/friska.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Berlian Rizky Septianingrum",
+            "role": "Administrator",
+            "major": "Manufacturing Engineering Technology",
+            "image": "/images/non-tech/berli.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Rahma Meiza Noorathaya",
+            "role": "Sponsorship",
+            "major": "Law",
+            "image": "/images/non-tech/meiza.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Taqi Refa Nasrulah",
+            "role": "Sponsorship",
+            "major": "Mechanical Engineering",
+            "image": "/images/non-tech/taqi.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Tiara Putri Maharani",
+            "role": "Sponsorship",
+            "major": "Indonesian Literature",
+            "image": "/images/non-tech/tiara.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Salma Salsabilla",
+            "role": "Visual Branding",
+            "major": "Industrial Engineering",
+            "image": "/images/non-tech/salma.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          },
+          {
+            "name": "Riva Tahlilia Yazna",
+            "role": "Visual Branding",
+            "major": "Chemistry",
+            "image": "/images/non-tech/riva.webp",
+            "image_width": 1000,
+            "image_height": 1000
+          }
+        ]
+      },
+      "image_width": null,
+      "image_height": null
+    },
+    "achievements": {
+      "highlight": null,
+      "sub_highlight": null,
+      "equal_highlights": [],
+      "details": []
+    },
+    "documents": {
+      "tdr_link": "/papers/TDR_Universitas-Sebelas-Maret_2026.pdf",
+      "tdr_filename": "TDR_Universitas-Sebelas-Maret_2026.pdf",
+      "video_link": null
+    }
+  },
+  {
+    "year": "2025",
+    "competition": "RoboBoat 2025",
+    "location": "Sarasota, Florida",
+    "theme": {
+      "title": "Environmental Monitoring",
+      "summary": "An environmental-monitoring season in which student-built autonomous surface vessels tackled maritime tasks including obstacle avoidance and precise autonomous navigation.",
+      "source_url": "https://roboboat.org/2025-roboboat/"
+    },
+    "boat": {
+      "name": "Mandakini Zenith",
+      "image": "/images/mandakini/2025-mandakini-zenith.webp",
+      "summary": "Mandakini Zenith retained the modular concept with a round catamaran hull and a raised frame. Development focused on control algorithms, camera and LiDAR sensor fusion, azimuth propulsion, power monitoring, and mechanisms for object and water delivery.",
+      "image_width": 1666,
+      "image_height": 1111
+    },
+    "team": {
+      "name": "RoboBoat 2025 Team",
+      "image": "/images/past-team/buv-rbb-2025.webp",
+      "description": "Muhammad Rayhan Bramantyo led the Mandakini Zenith delegation. Technical members worked on navigation, perception, hull design, and manufacturing; non-technical members supported administration, finances, external relations, sponsorship, and visual media.",
+      "roster": {
+        "team_leader": [
+          {
+            "name": "Muhammad Rayhan Bramantyo",
+            "role": "Team Leader",
+            "major": "Electrical Engineering",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2025/muhammad-rayhan-bramantyo.webp",
+            "research_area": "Power System, Mechatronic, IoT",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          }
+        ],
+        "technical_team": [
+          {
+            "name": "Petra Rivaldo Anugrah",
+            "role": "Technical Team",
+            "major": "Electrical Engineering",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2025/petra-rivaldo-anugrah.webp",
+            "research_area": "Navigation System, Sensors, Control System",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Paskah Ridho Tumanggor",
+            "role": "Technical Team",
+            "major": "Mechanical Engineering",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2025/paskah-ridho-tumanggor.webp",
+            "research_area": "Object Detection, Image Processing, Computer Vision",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Ghiyats Haqqani",
+            "role": "Technical Team",
+            "major": "Mechanical Engineering",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2025/ghiyats-haqqani.webp",
+            "research_area": "Mechanical Design, Manufacturing, Website",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Rafi Adhitya Putra Wibawa",
+            "role": "Technical Team",
+            "major": "Electrical Engineering",
+            "cohort": "2023",
+            "image": "/images/legacy/crew/2025/rafi-adhitya-putra-wibawa.webp",
+            "research_area": "Navigation System, Electrical System, Mechatronic",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Elsya Bekti Nugroho",
+            "role": "Technical Team",
+            "major": "Electrical Engineering",
+            "cohort": "2023",
+            "image": "/images/legacy/crew/2025/elsya-bekti-nugroho.webp",
+            "research_area": "Object Detection, Sensors, Control System",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Muhammad Taufiq Nur Hidayat",
+            "role": "Technical Team",
+            "major": "Mechanical Engineering",
+            "cohort": "2023",
+            "image": "/images/legacy/crew/2025/muhammad-taufiq-nur-hidayat.webp",
+            "research_area": "CAD, Manufacturing, Hull Analysis",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          }
+        ],
+        "non_technical_team": [
+          {
+            "name": "Fernanda Viola Anjarwati",
+            "role": "Non-Technical Team",
+            "major": "Accounting",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2025/fernanda-viola-anjarwati.webp",
+            "specific_role": "Assist external relations with domestic and prepare accommodation",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Alissya Pratiwi Haryadi",
+            "role": "Non-Technical Team",
+            "major": "Husbandry",
+            "cohort": "2023",
+            "image": "/images/legacy/crew/2025/alissya-pratiwi-haryadi.webp",
+            "specific_role": "Manage team finances and help the team internally",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Syifaa Khuluqi Fitriani",
+            "role": "Non-Technical Team",
+            "major": "Physics",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2025/syifaa-khuluqi-fitriani.webp",
+            "specific_role": "Proposing permission to Universitas related to internasional event competition",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Annisa Friska Lusiana",
+            "role": "Non-Technical Team",
+            "major": "Food Technology Science",
+            "cohort": "2023",
+            "image": "/images/legacy/crew/2025/annisa-friska-lusiana.webp",
+            "specific_role": "Carry out management of correspondence and general team affairs",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Hanif Hannan Mafasa",
+            "role": "Non-Technical Team",
+            "major": "Mechanical Engineering",
+            "cohort": "2023",
+            "image": "/images/legacy/crew/2025/hanif-hannan-mafasa.webp",
+            "specific_role": "Prepare sponsor needs and establish cooperation with sponsors",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Rahma Meiza Noorathaya",
+            "role": "Non-Technical Team",
+            "major": "Law",
+            "cohort": "2023",
+            "image": "/images/legacy/crew/2025/rahma-meiza-noorathaya.webp",
+            "specific_role": "Maintain and create relation with external parties and sponsors",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Dito Nurbiat Moko",
+            "role": "Non-Technical Team",
+            "major": "D4-Demography and Civil Registration",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2025/dito-nurbiat-moko.webp",
+            "specific_role": "Prepare sponsor needs and establish cooperation with sponsors",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Nimas Ayu Anindya Ningrum",
+            "role": "Non-Technical Team",
+            "major": "Architecture",
+            "cohort": "2024",
+            "image": "/images/legacy/crew/2025/nimas-ayu-anindya-ningrum.webp",
+            "specific_role": "Create content in the form of videos and photography",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Wa Ode Silvia Pipit Ramadhani Tonga",
+            "role": "Non-Technical Team",
+            "major": "Management",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2025/wa-ode-silvia-pipit-ramadhani-tonga.webp",
+            "specific_role": "Make all the needs regarding graphic design",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          },
+          {
+            "name": "Abdul Rahman Fariz Azka",
+            "role": "Non-Technical Team",
+            "major": "History",
+            "cohort": "2023",
+            "image": "/images/legacy/crew/2025/abdul-rahman-fariz-azka.webp",
+            "specific_role": "Developing websites and managing team social media",
+            "image_width": 470,
+            "image_height": 800,
+            "image_fit": "contain"
+          }
+        ]
+      },
+      "image_width": 6000,
+      "image_height": 4000
+    },
+    "achievements": {
+      "highlight": "2nd Place Autonomy Challenge",
+      "sub_highlight": "6th Place Overall Design Documentation",
+      "equal_highlights": [],
+      "details": [
+        "3rd Place Technical Design Report",
+        "5th Place Team Website",
+        "7th Place Team Video Introduction"
+      ]
+    },
+    "documents": {
+      "tdr_link": "/papers/TDR_Universitas-Sebelas-Maret_RB2025.pdf",
+      "tdr_filename": "TDR_Universitas-Sebelas-Maret_RB2025.pdf",
+      "video_link": "https://www.youtube.com/embed/aXdJKITc04k",
+      "supporting_videos": []
+    }
+  },
+  {
+    "year": "2024",
+    "competition": "RoboBoat 2024",
+    "location": "Sarasota, Florida",
+    "theme": {
+      "title": "Ducks Overboard",
+      "summary": "Inspired by the 1992 Friendly Floatee cargo spill, this season used a rubber-toy scenario to frame challenges for autonomous surface vessels.",
+      "source_url": "https://roboboat.org/draft-roboboat-2024-splashpage/"
+    },
+    "boat": {
+      "name": "Mandakini Hydra",
+      "image": "/images/mandakini/2024-mandakini-hydra.webp",
+      "summary": "Mandakini Hydra refined the modular platform with a modified V-hull and a lighter fiberglass and gelcoat construction. Jetson Nano with TensorRT replaced the Raspberry Pi for object detection, while a Pixhawk Cube and updated GPS improved navigation.",
+      "image_width": 1024,
+      "image_height": 683
+    },
+    "team": {
+      "name": "RoboBoat 2024 Team",
+      "image": "/images/past-team/buv-rbb-2024.webp",
+      "description": "Muhammad Zainnal Mutaqin led the Mandakini Hydra delegation. The technical division covered programming, design and manufacture, and electronics, while official staff handled team management, administration, sponsorship, and media.",
+      "roster": {
+        "team_leader": [
+          {
+            "name": "Muhammad Zainnal Mutaqin",
+            "role": "Team Leader",
+            "major": "Mechanical Engineering",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2024/muhammad-zainnal-mutaqin.webp",
+            "research_area": "Navigation System, Electrical System, Mechatronic",
+            "specific_role": "Coordinating technical and official staff and being responsible for the team",
+            "image_width": 768,
+            "image_height": 800
+          }
+        ],
+        "technical_team": [
+          {
+            "name": "Muh. Linggar Adi Wardhana",
+            "role": "Head of Technical",
+            "major": "Mechanical Engineering",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2024/muh-linggar-adi-wardhana.webp",
+            "research_area": "Navigation System, Object Detection, Sensors",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Petra Rivaldo Anugrah",
+            "role": "Programming",
+            "major": "Electrical Engineering",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2024/petra-rivaldo-anugrah.webp",
+            "research_area": "Object Detection, Sensors, Control System",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Paskah Ridho Tumanggor",
+            "role": "Programming",
+            "major": "Mechanical Engineering",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2024/paskah-ridho-tumanggor.webp",
+            "research_area": "Object Detection, Image Processing, Computer Vision",
+            "image_width": 767,
+            "image_height": 800
+          },
+          {
+            "name": "Aria Pranata",
+            "role": "Design & Manufacture",
+            "major": "Mechanical Engineering",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2024/aria-pranata.webp",
+            "research_area": "Mechanical Design, Manufacturing, Hull Analysis",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Ghiyats Haqqani",
+            "role": "Design & Manufacture",
+            "major": "Mechanical Engineering",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2024/ghiyats-haqqani.webp",
+            "research_area": "CAD, Manufacturing, FEM",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Muhammad Rayhan Bramantyo",
+            "role": "Mechanic & Electronic",
+            "major": "Electrical Engineering",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2024/muhammad-rayhan-bramantyo.webp",
+            "research_area": "Power System, Mechatronic, IoT",
+            "image_width": 768,
+            "image_height": 800
+          }
+        ],
+        "non_technical_team": [
+          {
+            "name": "Aisyiyaturrosyadah",
+            "role": "Head of Official",
+            "major": "Food Science and Technology",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2024/aisyiyaturrosyadah.webp",
+            "specific_role": "Coordinating the work of officials staff and responsible for official members",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Istinganah Saetu Rohmah",
+            "role": "Eksternal Manager",
+            "major": "Chemistry Education",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2024/istinganah-saetu-rohmah.webp",
+            "specific_role": "Assist external relations with domestic and prepare accommodation needs during the competition",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Fernanda Viola Anjarwati",
+            "role": "Internal Manager",
+            "major": "Accounting",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2024/fernanda-viola-anjarwati.webp",
+            "specific_role": "Manage team finances and help the team internally",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Syifaa Khuluqi Fitriani",
+            "role": "Administration",
+            "major": "Physics",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2024/syifaa-khuluqi-fitriani.webp",
+            "specific_role": "Proposing permission to Universitas related to internasional event competition",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Ganisya Rihma Aulia",
+            "role": "Administration",
+            "major": "Psychology",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2024/ganisya-rihma-aulia.webp",
+            "specific_role": "Carry out management of correspondence and general team affairs",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Zega Dwi Febryana",
+            "role": "Sponsorship",
+            "major": "Sociology and Anthropology Education",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2024/zega-dwi-febryana.webp",
+            "specific_role": "Maintain and create relation with external parties and sponsors",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Dito Nurbiat Moko",
+            "role": "Sponsorship",
+            "major": "D4-Demography and Civil Registration",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2024/dito-nurbiat-moko.webp",
+            "specific_role": "Prepare sponsor needs and establish cooperation with sponsors",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Gagas Roskadasya Indra Putra",
+            "role": "Media & Design",
+            "major": "Indonesian Literature",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2024/gagas-roskadasya-indra-putra.webp",
+            "specific_role": "Make all the needs regarding graphic design",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Muhammad Ilham Alghifari",
+            "role": "Media & Design",
+            "major": "Electrical Engineering",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2024/muhammad-ilham-alghifari.webp",
+            "specific_role": "Developing websites and managing team social media",
+            "image_width": 768,
+            "image_height": 800
+          },
+          {
+            "name": "Ibrahim Fauzi Rahman",
+            "role": "Media & Design",
+            "major": "Biology Education",
+            "cohort": "2022",
+            "image": "/images/legacy/crew/2024/ibrahim-fauzi-rahman.webp",
+            "specific_role": "Create content in the form of videos and photography",
+            "image_width": 768,
+            "image_height": 800
+          }
+        ]
+      },
+      "image_width": 1600,
+      "image_height": 1067
+    },
+    "achievements": {
+      "highlight": "3rd Place Overall Design Documentation",
+      "sub_highlight": "6th Place Autonomy Challenge",
+      "equal_highlights": [],
+      "details": [
+        "4th Place Technical Design Report",
+        "4th Place Team Website",
+        "4th Place Team Video Introduction"
+      ]
+    },
+    "documents": {
+      "tdr_link": "/papers/legacy/TDR_Universitas-Sebelas-Maret_RB2024.pdf",
+      "tdr_filename": "TDR_Universitas-Sebelas-Maret_RB2024.pdf",
+      "video_link": "https://www.youtube.com/embed/RjnH-do2j-Q",
+      "supporting_videos": []
+    }
+  },
+  {
+    "year": "2023",
+    "competition": "RoboBoat 2023",
+    "location": "Sarasota, Florida",
+    "theme": {
+      "title": "Ocean Exploration",
+      "summary": "Ocean exploration provided the setting for real-world maritime challenges that tested the autonomous capabilities of student-built surface vessels.",
+      "source_url": "https://roboboat.org/rb23/"
+    },
+    "boat": {
+      "name": "Mandakini Catra",
+      "image": "/images/mandakini/2023-mandakini-catra.webp",
+      "summary": "Mandakini Catra introduced a modular symmetrical catamaran platform with a fiberglass and gelcoat hull. Fully programmed MAVLink navigation, PID control, TensorFlow Lite object detection on Raspberry Pi 4, and an emergency protection system advanced the previous design.",
+      "image_width": 2048,
+      "image_height": 1365
+    },
+    "team": {
+      "name": "RoboBoat 2023 Team",
+      "image": "/images/past-team/buv-rbb-2023.webp",
+      "description": "Naufal Nur Saifullah led the 2023 delegation behind Mandakini Catra. The team combined technical development in hull manufacture, navigation, and programming with official staff responsible for finances, external relations, administration, sponsorship, and media.",
+      "roster": {
+        "team_leader": [
+          {
+            "name": "Naufal Nur Saifullah",
+            "role": "Team Leader",
+            "major": "Mechanical Engineering",
+            "cohort": "2020",
+            "image": "/images/legacy/crew/2023/naufal-nur-saifullah.webp",
+            "image_width": 576,
+            "image_height": 800
+          }
+        ],
+        "technical_team": [
+          {
+            "name": "Isnandaru Prasetyo",
+            "role": "Head of Technical",
+            "major": "Electrical Engineering",
+            "cohort": "2020",
+            "image": "/images/legacy/crew/2023/isnandaru-prasetyo.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Al Fath Farisy Kusuma Amanta",
+            "role": "Design & Manufacture",
+            "major": "Mechanical Engineering",
+            "cohort": "2020",
+            "image": "/images/legacy/crew/2023/al-fath-farisy-kusuma-amanta.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Muh. Linggar Adi Wardhana",
+            "role": "Programmer",
+            "major": "Mechanical Engineering",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2023/muh-linggar-adi-wardhana.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Muhammad Zainnal Mutaqin",
+            "role": "Mechanic Electronic",
+            "major": "Mechanical Engineering",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2023/muhammad-zainnal-mutaqin.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Muhammad Iksan Bima Aria Pratama",
+            "role": "Programmer",
+            "major": "Electrical Engineering",
+            "cohort": "2020",
+            "image": "/images/legacy/crew/2023/muhammad-iksan-bima-aria-pratama.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Aria Pranata",
+            "role": "Design & Manufacture",
+            "major": "Mechanical Engineering",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2023/aria-pranata.webp",
+            "image_width": 576,
+            "image_height": 800
+          }
+        ],
+        "non_technical_team": [
+          {
+            "name": "Muhammad Rizky Arga Wijaya",
+            "role": "Head of Official",
+            "major": "Mechanical Engineering",
+            "cohort": "2020",
+            "image": "/images/legacy/crew/2023/muhammad-rizky-arga-wijaya.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Annisa Fathunnida",
+            "role": "Sponsorship",
+            "major": "Accounting",
+            "cohort": "2020",
+            "image": "/images/legacy/crew/2023/annisa-fathunnida.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Fathiya Khansa Hanifa",
+            "role": "Sponsorship",
+            "major": "Accounting",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2023/fathiya-khansa-hanifa.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Bintan Amalia Sintri",
+            "role": "Internal Manager",
+            "major": "Office Administration Education",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2023/bintan-amalia-sintri.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Istinganah Saetu Rohmah",
+            "role": "Eksternal Manager",
+            "major": "Chemistry Education",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2023/istinganah-saetu-rohmah.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Sekar Arum Yuningsih",
+            "role": "Media & Design",
+            "major": "Industrial Engineering",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2023/sekar-arum-yuningsih.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Aisyiyaturrosyadah",
+            "role": "Administration",
+            "major": "Food Science and Technology",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2023/aisyiyaturrosyadah.webp",
+            "image_width": 576,
+            "image_height": 800
+          },
+          {
+            "name": "Gagas Roskadasya Indra Putra",
+            "role": "Media & Design",
+            "major": "Indonesian Literature",
+            "cohort": "2021",
+            "image": "/images/legacy/crew/2023/gagas-roskadasya-indra-putra.webp",
+            "image_width": 576,
+            "image_height": 800
+          }
+        ]
+      },
+      "image_width": 1600,
+      "image_height": 1066
+    },
+    "achievements": {
+      "highlight": "4th Place Overall Design Documentation",
+      "sub_highlight": null,
+      "equal_highlights": [],
+      "details": [
+        "2nd Place Team Website",
+        "3rd Place Technical Design Report",
+        "3rd Place Team Video Introduction",
+        "BlueRobotics Award: 2 x T200 Thrusters + ESC",
+        "Special Award: Perseverance"
+      ]
+    },
+    "documents": {
+      "tdr_link": "/papers/legacy/TDR_Universitas-Sebelas-Maret_RB2023.pdf",
+      "tdr_filename": "TDR_Universitas-Sebelas-Maret_RB2023.pdf",
+      "video_link": "https://www.youtube.com/embed/BE6x48sHjTU",
+      "supporting_videos": []
+    }
+  },
+  {
+    "year": "2022",
+    "competition": "RoboBoat 2022",
+    "location": "Online",
+    "theme": {
+      "title": "A Day at the Carnival",
+      "summary": "A carnival-inspired course framed the return to in-person competition, challenging student-built autonomous boats at Nathan Benderson Park.",
+      "source_url": "https://roboboat.org/2022-splash/"
+    },
+    "boat": {
+      "name": "Mandakini Evo",
+      "image": "/images/mandakini/2022-mandakini-evo.webp",
+      "summary": "Mandakini Evo developed the Neo platform with a flat-inside asymmetrical catamaran hull built from gelcoat and fiberglass. The team refined hull performance, Pixhawk PX4 navigation, camera detection, ultrasonic obstacle avoidance, and propulsion through simulation and on-water testing.",
+      "image_width": 1600,
+      "image_height": 1067
+    },
+    "team": {
+      "name": "RoboBoat 2022 Team",
+      "image": "/images/past-team/buv-rbb-2022.webp",
+      "description": "Led by Ahmad Ramadhan Yusfianda, the 2022 delegation developed Mandakini Evo. Technical members worked on hull design, electronics, and programming, supported by management, administration, sponsorship, and media staff.",
+      "roster": {
+        "team_leader": [
+          {
+            "name": "Ahmad Ramadhan Yusfianda",
+            "role": "Team Leader",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/ahmad-ramadhan-yusfianda.webp",
+            "image_width": 566,
+            "image_height": 800
+          }
+        ],
+        "technical_team": [
+          {
+            "name": "Naufal Nur Saifullah",
+            "role": "Body Mechanic",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/naufal-nur-saifullah.webp",
+            "image_width": 800,
+            "image_height": 800
+          },
+          {
+            "name": "Muhammad Hasya Nurfaizi",
+            "role": "Electronic Programming",
+            "major": "Electrical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/muhammad-hasya-nurfaizi.webp",
+            "image_width": 800,
+            "image_height": 800
+          },
+          {
+            "name": "Isnandaru Prasetyo",
+            "role": "Electronic Programming",
+            "major": "Electrical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/isnandaru-prasetyo.webp",
+            "image_width": 800,
+            "image_height": 800
+          },
+          {
+            "name": "Imaduddin Faqih",
+            "role": "Electronic Programming",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/imaduddin-faqih.webp",
+            "image_width": 800,
+            "image_height": 800
+          }
+        ],
+        "non_technical_team": [
+          {
+            "name": "Flavia Salsabila",
+            "role": "Manager",
+            "major": "Chemistry Education",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/flavia-salsabila.webp",
+            "image_width": 800,
+            "image_height": 600
+          },
+          {
+            "name": "Mohammad Inggi Hilmawan",
+            "role": "Manager",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/mohammad-inggi-hilmawan.webp",
+            "image_width": 800,
+            "image_height": 600
+          },
+          {
+            "name": "Annisa Fathunnida",
+            "role": "Sponsorship",
+            "major": "Accounting",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/annisa-fathunnida.webp",
+            "image_width": 800,
+            "image_height": 600
+          },
+          {
+            "name": "Binar Satrio Sutardi",
+            "role": "Sponsorship",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/binar-satrio-sutardi.webp",
+            "image_width": 800,
+            "image_height": 600
+          },
+          {
+            "name": "Wahid Nur Ihsanudin",
+            "role": "Media",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/wahid-nur-ihsanudin.webp",
+            "image_width": 800,
+            "image_height": 600
+          },
+          {
+            "name": "Gagas Roskadasya Indra Putra",
+            "role": "Media",
+            "major": "Indonesian Literature",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/gagas-roskadasya-indra-putra.webp",
+            "image_width": 800,
+            "image_height": 600
+          },
+          {
+            "name": "Muhammad Rizky Arga Wijaya",
+            "role": "Administrator",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/muhammad-rizky-arga-wijaya.webp",
+            "image_width": 800,
+            "image_height": 600
+          },
+          {
+            "name": "Tito Rivaldo",
+            "role": "Administrator",
+            "major": "Physics",
+            "cohort": null,
+            "image": "/images/legacy/crew/2022/tito-rivaldo.webp",
+            "image_width": 800,
+            "image_height": 600
+          }
+        ]
+      },
+      "image_width": 1600,
+      "image_height": 1067
+    },
+    "achievements": {
+      "highlight": "2nd Place Overall Design Documentation",
+      "sub_highlight": null,
+      "equal_highlights": [],
+      "details": [
+        "1st Place Team Website",
+        "2nd Place Team Video Introduction",
+        "5th Place Technical Design Report",
+        "Blue Robotics Award",
+        "Best Team for Testing and Innovation"
+      ]
+    },
+    "documents": {
+      "tdr_link": "/papers/legacy/TDR_Universitas-Sebelas-Maret_RB2022.pdf",
+      "tdr_filename": "TDR_Universitas-Sebelas-Maret_RB2022.pdf",
+      "video_link": null,
+      "supporting_videos": [
+        {
+          "title": "Competition Video",
+          "url": "https://www.youtube.com/embed/2azXx6_h5-w"
+        },
+        {
+          "title": "Demonstration Video",
+          "url": "https://www.youtube.com/embed/hQdTvCeHe0A"
+        }
+      ]
+    }
+  },
+  {
+    "year": "2021",
+    "competition": "RoboBoat 2021",
+    "location": "Online",
+    "theme": null,
+    "boat": {
+      "name": "Mandakini Neo",
+      "image": "/images/mandakini/2021-mandakini-neo.webp",
+      "summary": "Mandakini Neo introduced the team to RoboBoat with a catamaran hull designed in Maxsurf and SolidWorks and built from laser-cut plywood. Pixhawk-based navigation, camera detection, and ultrasonic obstacle avoidance were tested alongside hull performance.",
+      "image_width": 476,
+      "image_height": 255
+    },
+    "team": {
+      "name": "RoboBoat 2021 Team",
+      "image": "/images/past-team/buv-rbb-2021.webp",
+      "description": "The team made its RoboBoat debut with Mandakini Neo. Its dedicated delegation brought together hull and manufacturing, electronics and programming, administration, media, and sponsorship roles under team leader Fahri Setyo Utomo.",
+      "roster": {
+        "team_leader": [
+          {
+            "name": "Fahri Setyo Utomo",
+            "role": "Team Leader",
+            "major": "Javanese Literature",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/fahri-setyo-utomo.webp",
+            "image_width": 717,
+            "image_height": 535
+          }
+        ],
+        "technical_team": [
+          {
+            "name": "Angga Sifta Pratama",
+            "role": "Body Mechanic and Manufacture",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/angga-sifta-pratama.webp",
+            "research_area": "Body and Design",
+            "image_width": 672,
+            "image_height": 495
+          },
+          {
+            "name": "Mukhammad Afit Lutfi",
+            "role": "Body Mechanic and Manufacture",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/mukhammad-afit-lutfi.webp",
+            "research_area": "Body and design",
+            "image_width": 679,
+            "image_height": 498
+          },
+          {
+            "name": "Hananta Diatmaja",
+            "role": "Body Mechanic and Manufacture",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/hananta-diatmaja.webp",
+            "research_area": "Body and Design",
+            "image_width": 684,
+            "image_height": 515
+          },
+          {
+            "name": "M. Azharuddin Asyrofi",
+            "role": "Body Mechanic and Manufacture",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/m-azharuddin-asyrofi.webp",
+            "research_area": "Mechanic and Electronic",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "Ahmad Ramadhan Yusfianda",
+            "role": "Body Mechanic and Manufacture",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/ahmad-ramadhan-yusfianda.webp",
+            "research_area": "Body and Design",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "M Hasya Nurfaizi",
+            "role": "Electronics Programming",
+            "major": "Electrical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/m-hasya-nurfaizi.webp",
+            "research_area": "Mechanic and Electronic",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "Handy Prabowo",
+            "role": "Electronics Programming",
+            "major": "Mechanical Engineering Education",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/handy-prabowo.webp",
+            "research_area": "Mechanic and Electronic",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "Imaduddin Faqih",
+            "role": "Electronics Programming",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/imaduddin-faqih.webp",
+            "research_area": "Programming",
+            "image_width": 571,
+            "image_height": 800
+          }
+        ],
+        "non_technical_team": [
+          {
+            "name": "Noviana Dwi Murti Astuti",
+            "role": "Internal Manager",
+            "major": "Industrial Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/noviana-dwi-murti-astuti.webp",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "Awdy Paramadan Tashadini",
+            "role": "Internal Manager",
+            "major": "Indonesian Language Education",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/awdy-paramadan-tashadini.webp",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "Hanandya Maya Shafira",
+            "role": "Head of Administrator",
+            "major": "Electrical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/hanandya-maya-shafira.webp",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "Putri Nurfadilah",
+            "role": "Administrator",
+            "major": null,
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/putri-nurfadilah.webp",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "Flavia Salsabila",
+            "role": "Administrator",
+            "major": "Chemistry Education",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/flavia-salsabila.webp",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "Tri Rahmaji",
+            "role": "Administrator",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/tri-rahmaji.webp",
+            "image_width": 800,
+            "image_height": 600
+          },
+          {
+            "name": "Nadia Alfi N.F",
+            "role": "Web Design and Developer",
+            "major": "Industrial Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/nadia-alfi-n-f.webp",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "M Inggi Hilmawan",
+            "role": "Content Translator",
+            "major": "Mechanical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/m-inggi-hilmawan.webp",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "Hafidz Dhany Wicaksono",
+            "role": "Video Editor",
+            "major": "Chemical Engineering",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/hafidz-dhany-wicaksono.webp",
+            "image_width": 572,
+            "image_height": 800
+          },
+          {
+            "name": "Aurora Halmahera N. H.",
+            "role": "Head of Sponsorship and Public Relation",
+            "major": "Biology Education",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/aurora-halmahera-n-h.webp",
+            "image_width": 571,
+            "image_height": 800
+          },
+          {
+            "name": "Pradana Ricardo",
+            "role": "Sponsorship and Pubic Relation",
+            "major": "Indonesian Literature",
+            "cohort": null,
+            "image": "/images/legacy/crew/2021/pradana-ricardo.webp",
+            "image_width": 571,
+            "image_height": 800
+          }
+        ]
+      },
+      "image_width": 1920,
+      "image_height": 1080
+    },
+    "achievements": {
+      "highlight": null,
+      "sub_highlight": null,
+      "equal_highlights": [
+        "2nd Place Skills Video: Hull Design",
+        "2nd Place Skills Video: Sensor Optimization"
+      ],
+      "details": []
+    },
+    "documents": {
+      "tdr_link": "/papers/legacy/TDR_Universitas-Sebelas-Maret_RB2021.pdf",
+      "tdr_filename": "TDR_Universitas-Sebelas-Maret_RB2021.pdf",
+      "video_link": null,
+      "supporting_videos": [
+        {
+          "title": "Skills video: Sensor Optimization",
+          "url": "https://www.youtube.com/embed/i8Dzt4yiI0s"
+        },
+        {
+          "title": "Skills video: Hull Design",
+          "url": "https://www.youtube.com/embed/bzHYUok6gk0"
+        }
+      ]
+    }
+  }
+]

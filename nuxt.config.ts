@@ -1,9 +1,17 @@
+import legacyData from "./assets/data/legacy.json";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
 
   modules: ["@nuxtjs/tailwindcss", "@nuxt/content", "@nuxt/icon"],
+
+  nitro: {
+    prerender: {
+      routes: legacyData.map((season) => `/legacy/${season.year}`),
+    },
+  },
 
   content: {
     build: {

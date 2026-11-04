@@ -201,26 +201,50 @@
 
 		<section
 			id="past-teams"
-			class="py-16 bg-gray-50 border-t border-gray-200 scroll-mt-24 text-center"
+			aria-labelledby="past-teams-heading"
+			class="py-16 bg-gray-50 border-t border-gray-200 scroll-mt-24"
 		>
-			<div class="container mx-auto px-4">
-				<div class="mb-10">
-					<h2 class="text-3xl font-bold text-primary-dark">Past Team</h2>
+			<div class="container mx-auto max-w-6xl px-4">
+				<div class="mb-12 text-center">
+					<h2 id="past-teams-heading" class="text-3xl font-bold text-primary-dark">Past Teams</h2>
 					<div class="h-1 w-24 bg-surface-dark rounded mx-auto mt-4"></div>
+					<p class="mx-auto mt-5 max-w-2xl leading-relaxed text-gray-600">
+						Explore our journey, one season at a time. Discover the vessels, people, and achievements behind each year.
+					</p>
 				</div>
 
-				<div class="flex flex-wrap justify-center gap-6">
-					<div
-						v-for="member in teamData.past_team"
-						:key="member.name"
-						class="w-full md:w-[45%]"
-					>
-						<TeamMemberCard
-							v-bind="member"
-							:role="member.year"
-							class="opacity-90 hover:opacity-100 h-full"
-						/>
-					</div>
+				<div class="relative">
+					<div aria-hidden="true" class="absolute bottom-0 left-4 top-0 w-px bg-surface-dark md:left-1/2 md:-translate-x-1/2"></div>
+					<ol class="relative space-y-10 md:space-y-12">
+						<li
+							v-for="(season, index) in legacySeasons"
+							:key="season.year"
+							class="relative min-w-0 pl-12 md:grid md:grid-cols-2 md:gap-20 md:pl-0"
+						>
+							<span aria-hidden="true" class="absolute left-4 top-3 h-3 w-3 -translate-x-1/2 rounded-full border-2 border-gray-50 bg-secondary md:hidden"></span>
+							<time :datetime="season.year" class="relative z-10 mb-3 inline-block rounded-full border border-surface-dark bg-surface px-3 py-1 text-sm font-extrabold text-primary-dark md:absolute md:left-1/2 md:top-6 md:mb-0 md:-translate-x-1/2">
+								{{ season.year }}
+							</time>
+							<article
+								class="group min-w-0 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-shadow hover:shadow-lg focus-within:shadow-lg motion-reduce:transition-none"
+								:class="index % 2 === 0 ? 'md:col-start-1' : 'md:col-start-2'"
+								:aria-labelledby="`legacy-${season.year}-heading`"
+							>
+								<LegacyBoatImage v-if="season.image" :src="season.image" :alt="season.imageAlt" :width="season.imageWidth" :height="season.imageHeight" />
+								<div class="p-5 sm:p-6">
+									<p class="text-xs font-bold uppercase tracking-widest text-primary">RoboBoat {{ season.year }}</p>
+									<h3 :id="`legacy-${season.year}-heading`" class="mt-2 break-words text-2xl font-bold text-primary-dark">{{ season.name }}</h3>
+									<p v-if="season.highlight" class="mt-4 flex items-start gap-2 text-sm font-semibold text-primary">
+										<Icon name="uil:award" aria-hidden="true" class="mt-0.5 shrink-0" />
+										<span>{{ season.highlight }}</span>
+									</p>
+									<NuxtLink :to="`/legacy/${season.year}`" class="mt-6 inline-flex min-h-11 items-center gap-2 rounded-lg bg-primary px-4 py-3 text-sm font-bold text-white transition-colors hover:bg-primary-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary motion-reduce:transition-none">
+										Explore {{ season.year }} Journey <Icon name="uil:arrow-right" aria-hidden="true" />
+									</NuxtLink>
+								</div>
+							</article>
+						</li>
+					</ol>
 				</div>
 			</div>
 		</section>
@@ -230,4 +254,19 @@
 <script setup lang="ts">
 import teamData from "../../assets/data/team.json";
 import achievements from "../../assets/data/achievements.json";
+import legacyData from "../../assets/data/legacy.json";
+
+const legacySeasons = [...legacyData]
+	.sort((a, b) => Number(b.year) - Number(a.year))
+	.map((season) => ({
+		year: season.year,
+		name: season.boat.name,
+		image: season.boat.image || season.team.image,
+		imageWidth: season.boat.image ? season.boat.image_width : season.team.image_width,
+		imageHeight: season.boat.image ? season.boat.image_height : season.team.image_height,
+		imageAlt: season.boat.image
+			? `${season.boat.name}, our ${season.year} vessel`
+			: `${season.team.name} group photo`,
+		highlight: season.achievements.highlight || season.achievements.equal_highlights[0] || null,
+	}));
 </script>

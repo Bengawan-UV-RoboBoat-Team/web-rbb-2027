@@ -1,27 +1,37 @@
 [
-	{
-		"year": "2025",
-		"name": "Mandakini Zenith",
-		"image": "/images/mandakini/2025-mandakini-zenith.webp"
-	},
-	{
-		"year": "2024",
-		"name": "Mandakini Hydra",
-		"image": "/images/mandakini/2024-mandakini-hydra.webp"
-	},
-	{
-		"year": "2023",
-		"name": "Mandakini Catra",
-		"image": "/images/mandakini/2023-mandakini-catra.webp"
-	},
-	{
-		"year": "2022",
-		"name": "Mandakini Evo",
-		"image": "/images/mandakini/2022-mandakini-evo.webp"
-	},
-	{
-		"year": "2021",
-		"name": "Mandakini Neo",
-		"image": "/images/mandakini/2021-mandakini-neo.webp"
-	}
+  {
+    "year": "2025",
+    "name": "Mandakini Zenith",
+    "image": "/images/mandakini/2025-mandakini-zenith.webp",
+    "image_width": 1666,
+    "image_height": 1111
+  },
+  {
+    "year": "2024",
+    "name": "Mandakini Hydra",
+    "image": "/images/mandakini/2024-mandakini-hydra.webp",
+    "image_width": 1024,
+    "image_height": 683
+  },
+  {
+    "year": "2023",
+    "name": "Mandakini Catra",
+    "image": "/images/mandakini/2023-mandakini-catra.webp",
+    "image_width": 2048,
+    "image_height": 1365
+  },
+  {
+    "year": "2022",
+    "name": "Mandakini Evo",
+    "image": "/images/mandakini/2022-mandakini-evo.webp",
+    "image_width": 1600,
+    "image_height": 1067
+  },
+  {
+    "year": "2021",
+    "name": "Mandakini Neo",
+    "image": "/images/mandakini/2021-mandakini-neo.webp",
+    "image_width": 476,
+    "image_height": 255
+  }
 ]

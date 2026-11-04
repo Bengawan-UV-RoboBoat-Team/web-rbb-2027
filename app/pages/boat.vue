@@ -585,17 +585,14 @@
 					</p>
 				</div>
 				<div class="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
-					<div
+					<NuxtLink
 						v-for="boat in pastBoats"
 						:key="boat.year"
-						class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all group"
+						:to="`/legacy/${boat.year}`"
+						:aria-label="`Explore ${boat.year} Journey: ${boat.name}`"
+						class="block bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all group focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
 					>
-						<div class="aspect-square overflow-hidden relative">
-							<img
-								:src="boat.image"
-								:alt="boat.name"
-								class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
-							/>
+						<LegacyBoatImage :src="boat.image" :alt="boat.name" :width="boat.image_width" :height="boat.image_height">
 							<div
 								class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-60"
 							></div>
@@ -606,8 +603,11 @@
 								>
 								<h3 class="font-bold text-lg leading-tight">{{ boat.name }}</h3>
 							</div>
-						</div>
-					</div>
+						</LegacyBoatImage>
+						<p class="flex items-center justify-between gap-2 px-4 py-4 text-sm font-bold text-primary">
+							Explore {{ boat.year }} Journey <Icon name="uil:arrow-right" aria-hidden="true" />
+						</p>
+					</NuxtLink>
 				</div>
 			</div>
 		</section>
