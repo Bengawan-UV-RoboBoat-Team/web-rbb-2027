@@ -151,10 +151,13 @@
       "image_height": null
     },
     "achievements": {
-      "highlight": null,
+      "highlight": "2nd Place Technical Design Report",
       "sub_highlight": null,
       "equal_highlights": [],
-      "details": []
+      "details": [
+        "3rd Place Team Website",
+        "3rd Place Team Video Introduction"
+      ]
     },
     "documents": {
       "tdr_link": "/papers/TDR_Universitas-Sebelas-Maret_2026.pdf",
